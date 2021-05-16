@@ -1,0 +1,35 @@
+\phantompart
+\renewcommand{\glossaryname}{Glossário}
+\renewcommand{\glossarypreamble}{Esta é a descrição do glossário. Experimente
+visualizar outros estilos de glossários, como o \texttt{altlisthypergroup},
+por exemplo.\\
+\\}
+
+% ---
+% Traduções para o ambiente glossaries
+% ---
+\providetranslation{Glossary}{Glossário}
+\providetranslation{Acronyms}{Siglas}
+\providetranslation{Notation (glossaries)}{Notação}
+\providetranslation{Description (glossaries)}{Descrição}
+\providetranslation{Symbol (glossaries)}{Símbolo}
+\providetranslation{Page List (glossaries)}{Lista de Páginas}
+\providetranslation{Symbols (glossaries)}{Símbolos}
+\providetranslation{Numbers (glossaries)}{Números} 
+% ---
+
+% ---
+% Estilo de glossário
+% ---
+% \setglossarystyle{index}
+% \setglossarystyle{altlisthypergroup}
+ \setglossarystyle{tree}
+
+
+% ---
+% Imprime o glossário
+% ---
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\glossaryname}
+\printglossaries
