@@ -90,7 +90,7 @@ Exemplo 1 & Exemplo 2 & Exemplo 3 & Exemplo 4 \\ \hline
 
 ###### Exemplo citação após
 ```latex
- \citeo{referencia}
+ \cite{referencia}
 ```
 
 ###### Exemplo paragrafo
